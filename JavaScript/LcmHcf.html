@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<title>
+		L.C.M And H.C.F
+	</title>
+</head>
+<body>
+	<script>
+		var n1,n2;
+		var c=0;
+		n1=parseInt(prompt("Enter the N1"));
+		n2=parseInt(prompt("Enter the N2"));
+		var p=n1*n2;
+		for(var i=1;i<=n1 && i<=n2;i++)
+		{
+			if(n1%i==0 && n2%i==0)
+			{
+				c=i;
+			}
+		}
+		hcf=c;
+		lcm=p/c;
+		document.write("H.C.F ="+hcf);
+		document.write("L.C.M ="+lcm);
+	</script>
+</body>
+</html>

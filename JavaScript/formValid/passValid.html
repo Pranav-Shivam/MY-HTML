@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 style="text-align:center;">PassWord Validation</h1>
+	<script type="text/javascript">
+		function pass() {
+			var a=document.getElementById("passwords").value;
+			var b=document.getElementById("passw").value;
+			if(a=="")
+			{
+				document.getElementById("Message").innerHTML="**plz enter PassWord **";
+				return false;
+			}
+			if(a.length<5)
+			{
+				document.getElementById("Message").innerHTML="**plz enter PassWord more then 5 characters **";
+				return false;
+			}
+			if(a.length>20)
+			{
+				document.getElementById("Message").innerHTML="**plz enter PassWord less then 20 characters **";
+				return false;
+			}
+			if(a!=b)
+			{
+				document.getElementById("Messages").innerHTML="**plz enter correct PassWord **";
+				return false;
+			}
+		}
+	</script>
+	<form onsubmit="return pass()">
+		PassWord :<input type="password" id="passwords" value=""></input>
+		<span id="Message" style="color: red;"></span>
+		<br/><br/>
+		Confirm PassWord :<input type="password" id="passw" value="" ></input>
+		<span id="Messages" style="color: green;"></span>
+		<br/><br/>
+		<center>
+			<input type="submit" name="Submit">
+		</center>
+	</form>
+</body>
+</html>

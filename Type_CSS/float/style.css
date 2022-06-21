@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header
+{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+}
+.logo
+{
+	width: 30%;
+	line-height: 200px;
+	background-color: orange;
+	text-align: center;
+	float: left;
+}
+.menu
+{
+	width: 70%;
+	line-height: 200px;
+	margin: 1px green dashed;
+	background-color: red;
+	float: right;
+}
+ul
+{
+	list-style-type: none;
+	direction: rtl;
+	/*text-align: right;*/
+}
+li
+{
+	display: inline-block;
+	border: 2px green dashed;
+	background-color: purple;
+	padding: 0 10px;
+	
+}

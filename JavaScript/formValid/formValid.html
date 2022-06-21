@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form validation</title>
+</head>
+<body>
+	<form onsubmit="return valid()" name="Form1">
+		Password <input type="text" id="user" name=""></input>
+		<span id="umsg"></span><br>
+		Password <input type="password" id="pass" name=""></input>
+		<span id="pmsg"></span><br>
+		Confirm Password <input type="password" id="cpass" name=""></input>
+		<span id="cmsg"></span><br>
+		Mob. NO. <input type="text" id="mob" name=""></input>
+		<span id="umsg"></span><br>
+		Email ID. <input type="text" id="emailid" name=""></input>
+		<span id="emsg"></span><br>
+		<div>
+			<input type="radio" name="container" value="Male"></input> MALE
+			<input type="radio" name="container" value="FeMale"></input> FEMALE
+			<input type="radio" name="container" value="Others"></input> OTHERS
+		</div>
+		<span id="rad"></span>
+		<br>
+		<input type="submit" name="SUBMIT">
+	</form>
+	<script type="text/javascript">
+		function valid(argument) {
+			var a=document.getElementById('user').value;
+			var a=document.getElementById('user').value;
+			var a=document.getElementById('user').value;
+			var a=document.getElementById('user').value;
+		}
+	</script>
+</body>
+</html>

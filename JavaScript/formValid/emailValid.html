@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>EmailId Validation</h1>
+	<form onsubmit="return valid()">
+		Email Id. :<input type="text" id="emailId" value=""></input>
+		<span id="msg" style="color: red;"></span> 
+		<br/> <br/>
+		<center><input type="submit" value="SUBMIT"></input></center>
+	</form>
+	<script type="text/javascript">
+		function valid() {
+			var a=document.getElementById('emailId').value;
+			var b=/^[A-Za-z0-9_]{3,}[@]{1}[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$/;
+			if (b.test(a)) {
+				document.getElementById('msg').innerHTML="**HURRAY correct emailId **";
+				return false;
+			}
+			else
+			{
+				document.getElementById('msg').innerHTML="**SORRY is not correct emailId **";
+				return false;
+			}
+		}
+	</script>
+</body>
+</html>

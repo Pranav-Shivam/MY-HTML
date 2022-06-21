@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding:0; 
+}
+.backImg
+{
+	width: 100%;
+	height: 100vh;
+	/*background-color: orange;    	*/   /*background colour*/
+	background-image: url('1.jpg');		 /*background image*/
+	/*background-repeat: no-repeat;*/	 /*allow the repeation both in x as horizontal way and y in vertical way*/
+	background-size: 100% 100%;			 /*in css3*/
+	background-attachment: fixed;
+}
+
+.backImg1
+{
+	width: 100%;
+	height: 100vh;
+	/*background-color: orange;    	*/   /*background colour*/
+	background-image: url('3.jpg');		 /*background image*/
+	/*background-repeat: no-repeat;*/	 /*allow the repeation both in x as horizontal way and y in vertical way*/
+	background-size: 100% 100%;			 /*in css3*/
+	background-attachment: fixed;
+}
+
+.backImg2
+{
+	width: 100%;
+	height: 100vh;
+	/*background-color: orange;    	*/   /*background colour*/
+	background-image: url('2.jpg');		 /*background image*/
+	/*background-repeat: no-repeat;*/	 /*allow the repeation both in x as horizontal way and y in vertical way*/
+	background-size: 100% 100%;			 /*in css3*/
+	background-attachment: fixed;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function valid() 
+		{
+			var a=document.forms.container;
+			for(int i=0;i<a.length;i++)
+			{
+				if(a[i].checked==false)
+				{
+					return true;
+				}
+			}
+			document.getElementById("message").innerHTML="**Please choose any one of them";
+			return false;
+		}
+	</script>
+	<form name="forms" onsubmit="return valid()">
+		<input type="radio" name="container" value="Male"></input> Male
+		<input type="radio" name="container" value="Female"></input> Female
+		<input type="radio" name="container" value="Others"></input> Others
+		<br>
+		<div><p id="message" style="color: red; font-size: 20px;" p>
+		</div>
+		<br>
+		<input type="submit" name="Submit"></input>
+	</form>
+</body>
+</html>

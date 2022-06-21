@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*#fontCSS
+{
+	font-family: 'Noto Serif KR', sans-Serif;
+	font-variant: small-caps;
+	font-size: small;
+	font-style: italic;
+	font-weight: 700;
+}*/
+/*#textCSS
+{
+	font-family: 'Noto Serif KR', sans-Serif;
+	text-align: center;
+	color: purple;
+	direction: ltr;
+	letter-spacing: 2px;
+	word-spacing: 8px;
+	text-indent: 
+}*/
+.borderCSS
+{
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	/*border-color: blue;
+	border-style: dotted;
+	border-width: 8px;*/
+	border:green solid 8px;
+	border-radius: 50px; 	/*CSS3 property*/
+}

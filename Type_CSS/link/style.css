@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* unvisted */
+a:link{
+	color: red;
+}
+/* visted */
+a:hover{
+	color: green;
+}
+/* mouse over link */
+a:link{
+	color: yellow;
+}
+/* selected link */
+a:link{
+	color: blue;
+}

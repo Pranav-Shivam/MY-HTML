@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<title>
+		Recursive Factorial
+	</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var num;
+		num=parseInt(prompt("Enter the number :-"));
+		var factorial=fact(num);
+		document.write("Factorial of "+num+" is "+factorial);
+		function fact(var n)
+		{
+			if(n==0)
+				return 1;
+			else
+				return n*fact(n-1);
+		}
+	</script>
+</body>
+</html>

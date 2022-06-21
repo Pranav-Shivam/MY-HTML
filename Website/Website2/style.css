@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.A{
+	width:100%;
+	height:50px;
+}
+.logo{
+	width: 20%;
+	line-height: 50px;
+	text-align: center;
+}
+.heading{
+	width: 60%;
+	line-height: 50px;
+	text-align: center;
+}
+.Gif{
+	width: 20%;
+	line-height: 50px;
+	text-align: center;
+	padding: 10px 0;
+}
+.B{
+	width:100%;
+	height:450px;
+}
+.C{
+	width: 100%;
+	height: 50px;
+}
+ul{
+	list-style-type:square;
+}
